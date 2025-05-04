@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ligler Listesi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Ligler Listesi</h1>
+    </header>
+    <div class="container">
+        <ul id="ligler-listesi"></ul>
+    </div>
+
+    <script>
+        // Flask API'den Ligler Verisini Çekme
+        fetch('/ligler')
+        .then(response => response.json())
+        .then(data => {
+            console.log("✅ JSON Alındı:", data); // Konsola yazdır
+            const liste = document.getElementById('ligler-listesi');
+            liste.innerHTML = ""; // Önceki verileri temizle
+            data.forEach(lig => {
+                const item = document.createElement('li');
+                item.innerHTML = `<strong>${lig.isim}</strong> (${lig.ülke})<br>Takımlar: ${lig.takımlar.join(", ")}`;
+                liste.appendChild(item);
+            });
+        })
+        .catch(error => console.error('❌ Veri çekme hatası:', error));
+    </script>
+</body>
+</html>
