@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canlı Maçlar ve Takımlar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Canlı Maçlar ve Takımlar</h1>
+    </header>
+    <div class="container">
+        <nav>
+            <a href="/">Ana Sayfa</a>
+            <a href="/ligler">Ligler</a>
+            <a href="/canlımaclar">Canlı Maçlar ve Takımlar</a>
+            <a href="/yasalbahis">Yasal Bahis</a>
+            <a href="/discord">İletişim</a>
+        </nav>
+    <div class="container">
+        <h2>Canlı Maçlar</h2>
+        <!-- LIVESCORE WIDGET SOCCERSAPI.COM -->
+<div id="ls-widget" data-w="w_default" class="livescore-widget"></div>
+<script type="text/javascript" src="https://ls.soccersapi.com/widget/res/w_default/widget.js"></script>
+<!-- LIVESCORE WIDGET SOCCERSAPI.COM -->
+
+        
+
+    </div>
+        
+
+
+    <footer>
+        <h6>&copy; 2025 Topunpeşinde.com.tr</h6>
+    </footer>
+</body>
+</html>

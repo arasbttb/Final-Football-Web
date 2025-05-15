@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ligler Listesi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Ligler Listesi</h1>
+    </header>
+    <div class="container">
+        <nav>
+            <a href="/">Ana Sayfa</a>
+            <a href="/ligler">Ligler</a>
+            <a href="/canlımaclar">Canlı Maçlar ve Takımlar </a>
+            <a href="/yasalbahis">Yasal Bahis</a>
+            <a href="/discord">İletişim</a>
+        </nav>
+        <h2>Ligler</h2>
+        <h1>Burada liglerin listesi bulunmaktadır.⬇️⬇️</h1>
+
+        <h1>Premier Lig</h1>
+
+        <a href="https://tr.wikipedia.org/wiki/Premier_League" >Premier Lig
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+        </a>
+        <h1>La Liga</h1>
+        <a href="https://tr.wikipedia.org/wiki/La_Liga" >La Liga
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+        </a>
+        <h1>Seria</h1>
+        <a href="https://tr.wikipedia.org/wiki/Serie_A" >Seria A
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+        </a>
+
+        <h1>Bundesliga</h1>
+        <a href="https://tr.wikipedia.org/wiki/Bundesliga" >Bundesliga
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+        </a>
+
+        <h1>Ligue 1</h1>
+        <a href="https://tr.wikipedia.org/wiki/Ligue_1" >Ligue 1
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+        </a>
+
+        <h1>Major League Soccer - (MLS) </h1>
+        <a href="https://tr.wikipedia.org/wiki/Major_League_Soccer" >Major League Soccer - (MLS) 
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+
+        </a>
+        <h1>Campeonato Brasileiro Série A</h1>
+        <a href="https://tr.wikipedia.org/wiki/Série_A_(Brezilya)" > Campeonato Brasileiro Série A
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+
+        </a>
+        <h1>Argentine Primera División</h1>
+        <a href="https://tr.wikipedia.org/wiki/Primera_División_(Arjantin)" > Argentine Primera División
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+
+        </a>
+        
+        <h1>Eredivisie</h1>
+        <a href="https://tr.wikipedia.org/wiki/Eredivisie" > Eredivisie
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+
+        </a>
+        <h1>Primeira Liga</h1>
+        <a href="https://tr.wikipedia.org/wiki/Primeira_Liga" >Primeira Liga
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+        </a>
+        <h1>Saudi Pro League</h1>
+        <a href="https://tr.wikipedia.org/wiki/Devrî%27l-Muhterifin_es-Suudî" >Saudi Pro League
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAFD1JREFUeNrtWwd4VNW2/qckmSSTHnoIoWikl1CjSBEp0qQJWEDgKqICihcEQQFREYEPlCooKJ3gQ6VKky4XBKVIMEAkJARIaAkhpCdv/fucSWaScKUMXt+77O/bOWdO2WevtVf511o7wIP2oD1o/83N8Fd/MC8vz00OwdJLSLfqc0iVfkl6rMFgSPt/xQAh2E8O7aU/Ib2x9Iekm27xeK70P6Tvl75N+jphyKX/kwwQwknwa9I7ZGRkuPz0009gP3v2LFxcXJCeng6LxaKeTUtLU+c5OTkoW7YsmjRpgqZNm8Ld3T1bbm+SPkf6BmFG3t+eAUJ4Czl8LL3hzp07ERERgdzcXDz66KOKqODg4Pxns3LyYDIaYLSbxYULF7Bnzx7s2rUL2dnZ6NKlC1q3bg0h/qjcfkeO6/+WDBDCA+XwmfTeGzduxOLFi9G8eXP07t0bVqtVf0Y+aPfFQ7E34O5iRLUyHsWOKZKDVatW4YcffkDXrl1VFwask1uvyDH+b8MAIf5xOayIjY0tM3bsWISHh6Nfv34wmQpUPSrhJpb+nIg6QVZ0rRN4p+Nj5cqVWL9+Pd59912EhoZelct9dWb8Zxkgk+snh89Xr17tsmHDBkycOBGBgQUEXk/PwYqDidgXcx1h5b3wdO0ABPm6/em4OXk5MBkcbeX169cxZswY1K1bF/3796fBHClMmPwfY4AQP1QO0z788EODp6cnhg4d6nB/35nratUfLukuhAci2K94wtOzcpF4IwtJN7ORmpmDRiHeiMk4ih+vLUcD77ao5fm4TLRgql999RVOnDiBjz/+GEaj8SNhwui/nAFCfH85fDFq1ChDWFgYunXrln8vNSMHC/6VgGwxcl1kxUMCLA7vpmXm4kj8DURevImoxDQkpmQq+2BrM3pUgZfFhLTcG1iZ+IkwIxKdAgahnrVl/pS3bdsGkTrMmDGDqkbjOPFu6DDdJfHN5BDxwQcfmGrVquVA/PnkTKw5dgVPPuKHp6r7w9fD7PDugn0XMf+nCzhwNgVnr2YoZhVuTav4KAa4GFxRx9oCJVyCsCRxAg6k/IBSriEIdCmLSpUq0U1i1qxZaNOmTctx48b9Nn78+BP3nQFCPBHc1m+++caHvpzGzr5Z3UyoW94Kv0KE579PGOjvJt2CMt6uCLC6wEeI9XA1wc1shIvJiPrBXg7vl3Qtj8d9uuFcxiksTfgA8ZnRqOxeG9Uq10RiYiL27t1raNCgQVthQoQw4dp9ZYB8ZGFMTEzjBQsWQHS/yP2dyRHwMHnD0+RT5B79/qbIa4q4TjUDUE8Y1Vj0nSve8mFftK7qh3bV/Itlnlmkoba1GUI9GmB70kolCUFuD6F27dpYsmQJAZRb6dKl68j8vhYm3B8GyOq3ksOkIUOGYPLkyfDwcPTfFzLPYPq5V/Bj0jIkZsYh2FJVMYMtOS0bk7eeE91PVbpfXXy/v6eLMnr7Y1KQnp0Hi0iAq/R/1wJdyok0dFdSQRVRKiMAa9iwYVTFEDGKp4UBR53OACGe1idi7dq1ZenmajWuisy8NLgZ3fOfibg0BWczToiY5+FyVjxa+PYWBniJkcvCxM1xyj7YANGx86kIr+SDnaeSlafYE52MjcevYr/YhvikTIUQA4RBRiKn3Czg8AzAtwrg4iHS4JJP/NXsi7C4usPdzUNB7Xr16oWJFMwWJuTcDl3GOxCA1sKEsKVLl+LFF19U+sgVz7f8OcnYf31D/u/nS41WxkojPhaXxc3Zt2vi8pYLPtgrhNvbhwvCpO0nkzB12zkMWRWNxQcSEH9dXH7Cz8DG3gIGYhzGOZseKUy4gKeffhqbNm1CZmZmBbn87O0SdScMeJ2up1WrVgrhVfVohIfdw/Jv7k/ZgKy8DHXewKsNwr07KxA0ZVucItZBn2V124mH6NuoFEa2FgMnNsBQjEO+KeqxLSpJqQ1qvCRcPg9s7itMKGB8XXGNZVwrqfOePXsq6KwHYc5jgG752zKwIbYvrh1M2ayOvuaS6FNqLHJy8zBrZ7ySAPtWo6wnJnQMQc96JWCROMDH3Yz+TUpjbLsKCjAVMX7CrMcqi0ENEs/rK5F02mXxQcKMtMQiz1IKiEal1Zc5V3WmBHS6efOmWQyMMnyJWXHYkRRRgORyU3Ey7ZBCawNKfwiryRdnrqQrkGNrpbxcMbRFOfzziSDl/go3gqV32gRjUNOySvdtrV6wFd4WkwaAqg/Q9e0CsGOI2IZMR4Mmkkn7dPHiRcUPZzKgFUPbZs2aqR+EqNuTVuTfPJ12WLB7Np7wexY1PB9V16qUcFei7eFqRK+wEviwUwjqBln/9EONQrwwsXNFQZCByiO0eMjXjktPCdAor51fPibh5NQi77dt2xZbtmyBnoBxGgMa08I+9thjurHKzXdvbDEZx5UePh0wGOcz/8DhGzuw5dpiWCoux6TOldBWfLvZePuo29VkQOdaAZjUMQiPRL4FrO8O/L5UZiuSUOMfBQ/yGo2jXeMc9+3bx9OGuuf6t818G/pPSivExcUhKChI45rB7AB0Wvj0RANrG3xxcaQi3ta8Tf54tvSbdx1s+bnL+sTv0pMD4i1Cxf5U7iw+dK6mBp5lRDMc15C5ByJUaV6cN9fnnhhAwaMC2sf29MEexgIJIDPYidmLa6mpqRg4cCAOHDigMDwTJfPmzVOpMVdXV7z22mtKbI8fP44jR47Aza2YqJEeIOEAULqxZguuRoqpe1smI2p1Ua57ybc9y6pHmUmym/s9M6Ak/4h/LRBRo0UI9i7yYJDbw8UOsGbNGoXZDx8+nI8eDx06hEGDBoHBVJUqVZCQkIAyZcqo1SuWAcrpb9EYENrLMZC9EaelmnQGeHl5qfyiLFoJZ9gAZblsCUx1bvSEp7EoAyq71yl2ACY5o6KiVL7gzJkCH3758mVERkaqqM5sNjPdpbI/t2zndxcfxWdeF7d4yUENxGvx1MOZQCi/eRi9HIygrZV1raxcYBEdCgnBr7/+ilKlSqnk6NWrV9X1mTNnKlVYtmyZQ/rslu1GvKb7hRsZwG5jTwEj790IEpDZEpT2xs3k8GqexAUZcDVYVPy+J/lbhwGOHj2KHTt2oFevXli0aBGuXdMi1hEjRqBDhw4OzxJt/vHHHwgICED/vs8Vnc2V3zTjV5gB5oLF5upTqph7cYYEKNmiiNrruk3fr2UnYOq5gfj+8mz1O8z6ZJEBJEzF77//DkaRw4cPR+XKldG+fXtUrFjR4blXX31VMSo2NhYVKlQofjZJp4uRAIHK2en5P5OTk5WBJbucIQExtsysrRHush9L3Y25F4bjZs51RAsYah/wD9TybAo/cynFmHwrWrIkZs+e7TAoA6rCbcKECYUyoxlFM3iZyZrvt/gDPpW1y9mpDs/Ss9jM5j1LgOgT5fU8ibh0ybFKFSDRXmauxnnm77ZeWyYYwYQOAQNRz/oEwl1EGmJi7j7rGnUKeOQV4PFpQIf/AXqLu6vxMrBLwNGFfXaZllS9qqZ5K4MWWaXpZTanGMEDtOS7d+8uYvS6l3gj/zfRX0ZuGlr69sLgcjPQc7/EI50Fkn8yGUhJuX3CaSTHjgWeEeCzXqS4QmtBRY9oev6vcRJ8yLWAGoUYoNm7/fv3o2HDhsrTCiNynMWAbQQv27dvL5ok8Osret9KM9I517AjuSBIwko5z8piHht4SnD8qm9koXJv/RX17NdAO7tneRQUqlr0d3K+TWOEf7WC9xq8A9QZok5ZRWLIzpDFmbHAGl9f3zwiuqysrEJaacBLZSahokVbkU1XFyI7L5OmHzhhl6S9oq9qj2ckdj5Y9As7dzGeFWn5xFFann8eKF9eQ4I/65nvMgKGTHYRZYna8ttN2SniDLpdad87LSU2fvz45HHjxrWQD4QcO3YMNWrUKJSwdEGYVyv8lroXCVmx8DeXRsj87Y4MKEA/wLeyktGinjVrar9HjgJoJJOSHJ8NDwcmfqRJ986hBYkQJkf8HykqpuJCfXx8UL9+/UgR/3ednRGa06lTJ3z/vc7YczscDJHV5IcR5ReiiqDBjVe/RO6rA4EBgtkF/BTbRFQxQrD8+2L5C9kW1cicT6fT/0rUt1jD+yoQsWo2wdZiBR5fOqxOv/76axGY59VcnZ4UFQmIMhqNvdPS0gJOnz6NqvUe17C30ewQIzTx7gCLyRPlA+vDGC7hc98+YsWb0heKqxKdviIGLEe3TcP/qd1fv57opeBjdQRSz/ucoF6cerRm9fP0dx7qJiphF+q7y7iepbFj1x71s1mzZvS//URqs5zKABkwV5iQULNmzR7vv/8+2rbvBFeLjr7om9PFW7p6wSShcoilunKHuh/VpICWuWtXoH9/sZyygs1bSBzdnMAdqF1LrMxazejRgM2cIUR56vpl0Yxe0iktA9R0inzHDoaL7rPeMHLkSFUrFMA2SsR/732pCwgDqFtNQ0NDK06bNo0lKV0ddooCvqxNLKB68RCcK5wkjPJw16QhRJCeUddAiQLh7SMwsh4werSIuYudksp5ybpaLqBkmD5+UQBFmC1RJXVhIBfrvjCAFRdhwm4JavpFR0e7URVqUlet5WR1RESPzBRd3a9N1K1QZejgIaBLF2CuiPbSpWIIJV74YZNm/Q/8DLVNJEisfWjoLayVqJo1CIXTx3R78fHxRJaM1zvIAp2/r6UxYUKSMOG0gI0eX375pYGhZ3CIQNLSjYBKHUXHxfIf/FgT3YCaBRNOkYAlYpWeRRX0eE0s/nmZa7To+G8S4Bw/LpbdX7MXhRtd6qzZmtT4+eVfZn5B5oCpU6eyTD5UiF/7l1SHhQmRwoRcARwtPvroI5m3v7b3R2wAgsVABYl+n9kgUHaZ+GgxaG5+xKjA4sUFg4i7QnUR56faAS+LWxv7ntiEFo4f+vWwhh2OHgNGjRToWdaB+E8EM8yfP5/Yf7YQP+5uaLnXDRJTs7Ozh7Eux2Rkjx49HB9IkVjkpKDBcuIxAupphJDwwACJqHxvPfAhUZfZ4skkgsTodzQUWUjsuWVmzpw5DHuXQNsuk/uXM0BnwjjpY6dPn652eNFO2GeP7qgdOKARTqTIPQfD3tQYlo+Us/Ir0u+99x6TKAwxB98t8U5hgM4ElovmHTp0yDpp0iTu3ynwELc/CCDvIlJsyNsjNPWwR8o7d6oM0uuvv86kKg3eMCF81r3O3Znb5JghWSAq8Sj1kpHjc889pwoVRuMtAOfadWLUfJnMv9WY+PHHH9WeIO4DGDx4MKXrCIGOEP+rM+bt1I2SMmFS2pd2Mj09vfzy5ctVuru8BDPt2rVD48aNHTO+RISFcoEUc6bPqeenTp1SKfQXXniBiU4WAyn/c4T4LGfN+b5sldU3RL8g/XXptZniYumasTrT1UxaMMFiS5FzqyyTLbbMcIMGDdTuUKbOWP/Rsf2Xci/V2XM13AYx7irgMxhS9N/EqPRHMcWthL45mvepp5wwNw0KAgKThaynKwvJPX9MXpJgJjCZy9czOXyP4s3N0t8RQnGPsDSKSii0bQQMQH6/U0mQMZjiD9bHyJb3Txn0G8SeAtFAFDJIbmzVr9fQJ8Kl6qRPjnt1aZoZCj5pvyryPFMx2+3y8ZxgCxs2179TRXolveDiYZd5Zr6N8e4peT6z0MQ5T9bI7I3FRnnuqTsgnhlYFhID7C6/aWPAa6J7M1kAlWiKYVc0k7/U0ri4OK8rEsHVqVOHhLoePHjQhZnbt956C/oK/MIIXQdVeZGRke602Mz9U3cFIE3TV7IcvZdOfIYuCRn6atfUf1/RmVZan0OSvlqcfDmW0KpWrapUZvjw4Xy3OSMJ6R/o45JxrIsl65Lnoks5bdNNmZMP3TUhPA1qkyZNlpuEeCbf54lPNbBwIeDC2KhRo4BPP/3UpX79+m70u+vWrWOSwVWMmom6SePEXL+4JVN4eHjQ6tWrXadMmWLmtngauZMnTwrKPQ8ZR5CrXxNabendBLwEips0CXJ0W7RokSkiIsJVJlFhzJgxliVLlpjF0nt/9913vl988YVZvEdJsRvBUVFRwbII3iyZcYMGVYUbIWSuVAOWintu3LixhAREZvm2m3gfd7nnN2rUKDeZr1nGNw8aNMgkNsbCNDw3crMMx+hR2nRypv3mzZuNTCRQF7duVdKvjtyOSj2lMWIxg9dSUlKUMeP+QG5JYbqbsJQcXbhwoYMLY+PW9+7du6tz4vaOHTuqwsdoifpYC1yxYoVaUXoKSg1/M9KkjeD2t7lz56qCqb7pwaHY8uSTWg3is88+wzPPPKPKb3SbnCfrCvQo3DDB73JvU+H0PvPO5GLejRs30LJlS3WFtTpOkoO98cYb+daZeXyKTp8+fdTqEvYyR8hIjH6e7/GfIYgEqTKs0HJjM8dmOcxWshKJUHk7jhcTE6MmTpXi/xTQ/XE84gdOnpJGr8EaIre+8JyeQ+1SSUxUNUeb62Q84qOjRn6bjOTcWYmiSyVKZeGlWrVq9lWuTDIgjnt9qa/k3EsvvYS+ffuqPbis4vjqmJ3ghni/cIHjT3NuwhyqEVeRoTNXzbZytkbiie254qwi3U5j6eztt99W82Ugxi36rC+K+iiiuRh0vQMGDFC9mEYb8xv9C13WXuFKCEVRCCauTtEtPcHHy9InJycnP0T9E4Lmy+9lt2N4pTM9tUX0Mkh0G2InKAXzmL6jQdUN57eyUl6s5sgK0hP0YcB8izFz9M5izZpffvmlChfq888/Z0Qo2nrTgyLOnetkAMVfzk/Js6/kV040Q8nvHqZrN9j5R7oUCcjBDGWs7nPp6y/LfW7MaSs9Xnc/eXfgfhgiLtc/ysJeQ73aZLtPD9BM9whr5d7F2xy3vZ76NuklMImr1T9l5eoM4i4xjvWtjHn9L0WCt4gT6PePyWSSnTguieQmiCPOHPdBe9AetP+e9r89xitWc4ZXLwAAAABJRU5ErkJggg==" alt="Saudi Pro League" style="width: 100px; height: auto;">
+
+        </a>
+        <h1>Chinese Super League (CSL)</h1>
+        <a href="https://tr.wikipedia.org/wiki/Chinese_Super_League" >Chinese Super League (CSL)
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+        </a>
+        <h1>J1 League</h1>
+        <a href="https://tr.wikipedia.org/wiki/J1_League" >J1 League
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+            
+        </a>
+        <h1>Russian Premier League</h1>
+        <a href="https://en-m-wikipedia-org.translate.goog/wiki/Russian_Premier_League?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc" > Russian Premier League
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+
+        </a>
+        <h1>Süper Lig</h1>
+        <a href="https://tr.wikipedia.org/wiki/Süper_Lig" > Süper Lig
+            <img src="https://www.example.com/image.jpg" alt="Açıklama metni">
+
+
+
+        </a>
+        
+        
+
+
+        <ul id="ligler-listesi"></ul>
+    </div>
+    <footer>
+        <h6>&copy; 2025 Topunpeşinde.com.tr</h6>
+    </footer>
+</body>
+</html>
+``
